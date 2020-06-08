@@ -129,7 +129,7 @@
     - Overlay
 ------------------------------------------*/
 /* line 4, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_overlay.scss */
-[data-overlay] {
+[overlay] {
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4271,6 +4271,9 @@ input:focus {
   border-radius: 30px;
   display: inline-block;
 }
+.espacio-izquierda {
+  padding-left: 0px;
+}
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   /* line 47, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_category.scss */
@@ -7488,6 +7491,10 @@ del {
   border-radius: 0px;
   background: transparent;
 }
+.e{
+  margin-left: 17%;
+}
+
 
 /* line 376, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_elements.scss */
 .progress-table .table-row .percentage .progress .progress-bar {
